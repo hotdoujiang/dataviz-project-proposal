@@ -2,7 +2,28 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is downloaded from [Heritage Organization](https://www.heritage.org/index/about)
+
+>The Economic Freedom Index is poised to help readers track over two decades of the advancement in economic freedom, prosperity, and opportunity and promote these ideas in their homes, schools, and communities. The Index covers 12 freedoms – from property rights to financial freedom – in 186 countries. <br>
+
+The attributes are
+* Country Name
+* Region
+* World Rank
+* Region Rank
+* 2019 Score
+* Property Rights
+* Judical Effectiveness
+* Government Integrity
+* Tax Burden
+* Gov't Spending
+* Fiscal Health
+* Business Freedom
+* Labor Freedom
+* Monetary Freedom
+* Trade Freedom
+* Investment Freedom
+* Financial Freedom
 
 ## Prototypes
 
@@ -16,10 +37,9 @@ I’ve created a proof of concept visualization of this data. It's a ... and it 
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+* How is the economic freedom distribution around the world? Is there any region pattern?
+* Which are the top countries who have the most tax burden?
+* Is there any relationship between trade freedom and the country location? i.e. whether it is a inland country or not?
 
 ## Sketches
 
