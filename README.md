@@ -27,11 +27,15 @@ The attributes are
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a proof of concept visualization of this data. The viz shows the correlation between two important evaluation metrics 'Tax Burden' and 'Government Integrity'.
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://beta.vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments)
+![image](https://github.com/hotdoujiang/dataviz-project-proposal/blob/master/economic_freedom_viz.png)
+
+We cannot seen a clear correlation between these two attributes. Tax burden is not significantly correlated with government integrity.
+However, most of the countries in the world have high tax burden as well as low government integrity, with a intenser field appearing on the right lower corner of the picture.
+Most European countries, the red circles on the picture, have a low tax burden and high government integrity, while most sub-saharah African countries, the green circles, have a high tax burden and low government integrity.
+An interesting outlier is located at the left lower corner, which is North Korea. The country has no tax burden but relatively low government integrity.
 
 ## Questions & Tasks
 
@@ -43,9 +47,14 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+![image](https://github.com/hotdoujiang/dataviz-project-proposal/blob/master/Economic%20Freedom.jpg)
+
+The whole picture will be a interactive world map. Ideally, it should be a spinning earth with country maps in different brightness. The brighter country map is, the more free the country economic is.
+
+Interactions
+* Users can zoom in and out to check out more details of countries in the world.
+* Each country map is clickable, which contains information about the 12-freedom-index radar chart.
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+I’m not sure how to make the earth spinning in certain ratio and how to make the earth 'clickable' and linked to the radar chart.
