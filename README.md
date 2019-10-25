@@ -30,7 +30,7 @@ The attributes are
 I’ve created a proof of concept visualization of this data. The viz shows the correlation between two important evaluation metrics 'Tax Burden' and 'Government Integrity'.
 
 
-![image](https://user-images.githubusercontent.com/42425096/67602655-1a721900-f745-11e9-91da-35e3ddbbd39a.jpg)
+[![image](https://user-images.githubusercontent.com/42425096/67602911-a7b56d80-f745-11e9-9222-56a999340eb0.png)](https://beta.vizhub.com/hotdoujiang/4f0bcd5520b74d5a8d8d88bd88bd2f24)
 
 We cannot seen a clear correlation between these two attributes. Tax burden is not significantly correlated with government integrity.
 However, most of the countries in the world have high tax burden as well as low government integrity, with a intenser field appearing on the right lower corner of the picture.
@@ -47,7 +47,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-![image](https://github.com/hotdoujiang/dataviz-project-proposal/blob/master/Economic%20Freedom.jpg)
+![image](https://user-images.githubusercontent.com/42425096/67602655-1a721900-f745-11e9-91da-35e3ddbbd39a.jpg)
 
 The whole picture will be a interactive world map. Ideally, it should be a spinning earth with country maps in different brightness. The brighter country map is, the more free the country economic is.
 
