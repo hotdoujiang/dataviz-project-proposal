@@ -30,7 +30,7 @@ The attributes are
 I’ve created a proof of concept visualization of this data. The viz shows the correlation between two important evaluation metrics 'Tax Burden' and 'Government Integrity'.
 
 
-![image](https://github.com/hotdoujiang/dataviz-project-proposal/blob/master/economic_freedom_viz.png)
+![image](https://user-images.githubusercontent.com/42425096/67602655-1a721900-f745-11e9-91da-35e3ddbbd39a.jpg)
 
 We cannot seen a clear correlation between these two attributes. Tax burden is not significantly correlated with government integrity.
 However, most of the countries in the world have high tax burden as well as low government integrity, with a intenser field appearing on the right lower corner of the picture.
