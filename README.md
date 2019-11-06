@@ -99,13 +99,14 @@ Distributed map fails to be realized because of lacking geographic data, a.k.a l
 
 ### World Economic Freedom Index
 
-Here's the world economic freedom index radar chart- China v.s. US.
+#### Here's the world economic freedom index radar chart- China v.s. US.
 [![WEFI](https://user-images.githubusercontent.com/42425096/68251702-b4617d80-fff1-11e9-9313-231d3f377d2d.png)](https://beta.vizhub.com/hotdoujiang/a70d524e772e4ff582fe6d0158c6df83)
 
 The rader chart is a gorgeous [data visualization designed by Nadieh Bremer](https://beta.vizhub.com/Kuerzibe/610ea1fb51f2476f9ae9f2bf225bf564). So far I am doing well on integrating it with my [World Economic Freedom Index dataset](https://gist.github.com/hotdoujiang/addd4f2369f3457e5a09a8b89942941b), although some further changes are still necessary for better interpreting.
 You can see from the chart that the data indicates that the economic of the United States is generally more free than the economic of China, except for the two aspects, Fiscal Health and Government spending.
 
-And another scatter plot with menus. Dropdown menus added to the visualization to show the correlation between the selected 2 economic freedom indexes.
+#### And this is another scatter plot. 
+Dropdown menus added to the visualization to show the correlation between the selected 2 economic freedom indexes.
 [![menus](https://user-images.githubusercontent.com/42425096/68251276-c1ca3800-fff0-11e9-88d2-2dd60959745a.png)](https://beta.vizhub.com/hotdoujiang/db9678c5d9224f3ebc9e91c8ecd30c28)
 
 *Future Work*
