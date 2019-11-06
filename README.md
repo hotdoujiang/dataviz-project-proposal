@@ -71,12 +71,44 @@ Interactions
 
 * Global Terrorism Dataset
 
-[![GTD](https://user-images.githubusercontent.com/42425096/68251447-24233880-fff1-11e9-8451-aadee278abed.png)](https://beta.vizhub.com/hotdoujiang/278556d01b4044bd9aa8d1e1858a5d38)
+[![GTD](https://user-images.githubusercontent.com/42425096/68251403-05bd3d00-fff1-11e9-9800-200ec0d3f9be.png)](https://beta.vizhub.com/hotdoujiang/278556d01b4044bd9aa8d1e1858a5d38)
+
+The points on the map represents worldwide terrorism events which took place in 2018.
+
+The size of the points represents the number of people who were wounded or killed in the terrorism event. The larger a point is, the more people are injured or killed in the event.
+
+The color of the points are set to be red to make it look like blood.
+
+*Future work* : 
+1. To make multiple views by adding a time series bar chart at the bottom of the map;
+2. Add brushes to interactively show the temporal and spatial changes of the number of terrorism events.
+3. Tooltip can also be added to see which orginazation conduct the terrorism event or the exact number of victims.
 
 * Ramen Rating
 [![RR](https://user-images.githubusercontent.com/42425096/68251447-24233880-fff1-11e9-8451-aadee278abed.png)](https://beta.vizhub.com/hotdoujiang/bb83820293d04fba9762d1c4071904f7)
 
+The visualization is all about Ramen Ratings! The picture includes information about the ramen score, style and which country it comes from.
+** Most circles are light red and purple, which means most of the ramen reviewed are pack and bowl.
+** Japan, Taiwan, the US and some other countries have ramen which shares a large range of rating scores, from lower than 0.5 to 5.
+
+*Future Work*
+Distributed map fails to be realized because of lacking geographic data, a.k.a longitude and latitude. The missing data can be added to the original dataset to make the map visualization possible.
+
 * World Economic Freedom Index
 
-Here's the world economic freedom index - China v.s. US.
+Here's the world economic freedom index radar chart- China v.s. US.
 [![WEFI](https://user-images.githubusercontent.com/42425096/68251702-b4617d80-fff1-11e9-9313-231d3f377d2d.png)](https://beta.vizhub.com/hotdoujiang/a70d524e772e4ff582fe6d0158c6df83)
+
+The rader chart is a gorgeous [data visualization designed by Nadieh Bremer](https://beta.vizhub.com/Kuerzibe/610ea1fb51f2476f9ae9f2bf225bf564). So far I am doing well on integrating it with my [World Economic Freedom Index dataset](https://gist.github.com/hotdoujiang/addd4f2369f3457e5a09a8b89942941b), although some further changes are still necessary for better interpreting.
+You can see from the chart that the data indicates that the economic of the United States is generally more free than the economic of China, except for the two aspects, Fiscal Health and Government spending.
+
+And another scatter plot with menus. Dropdown menus added to the visualization to show the correlation between the selected 2 economic freedom indexes.
+[![menus](https://user-images.githubusercontent.com/42425096/68251276-c1ca3800-fff0-11e9-88d2-2dd60959745a.png)](https://beta.vizhub.com/hotdoujiang/db9678c5d9224f3ebc9e91c8ecd30c28)
+
+*Future Work*
+
+1. The radar chart is flexible with the number of axis. It is not fixed, so you can have as many axises as you like. Here I have 12 indexes describing the economic freedom. Hence, my radar chart is a 12-axis chart.
+2. The function of the scale need to be changed according to need. The 'default' function is about the percentage.
+3. The max value of the axis is not fixed too. It is depending on the data you entered in. Changes are needed if you want the fixed maximum value.
+4. It is so frustrating that the data entry is by typed not imported from csv or json. I think that for the future improvements I can use d3 to import formated data instead of typing.
+5. There's no tooltip by placing the mouse on the inner information, which means that you cannot tell whether the red is China or not unless checking the src. I think I can add a tooltip to the radar chart to make it better.
