@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is include
+The datasets I proposed to visualize for my project include
 
 * [2019 Economic Freedon Index](https://gist.github.com/hotdoujiang/addd4f2369f3457e5a09a8b89942941b) downloaded from [Heritage Organization](https://www.heritage.org/index/about)
 
@@ -67,9 +67,16 @@ Interactions
 * Users can zoom in and out to check out more details of countries in the world.
 * Each country map is clickable, which contains information about the 12-freedom-index radar chart.
 
+## Current Visualization
 
-## Open Questions
+* Global Terrorism Dataset
 
-I’m not sure how to make the earth spinning in certain ratio and how to make the earth 'clickable' and linked to the radar chart.
+[![GTD](https://user-images.githubusercontent.com/42425096/68251447-24233880-fff1-11e9-8451-aadee278abed.png)](https://beta.vizhub.com/hotdoujiang/278556d01b4044bd9aa8d1e1858a5d38)
 
+* Ramen Rating
+[![RR](https://user-images.githubusercontent.com/42425096/68251447-24233880-fff1-11e9-8451-aadee278abed.png)](https://beta.vizhub.com/hotdoujiang/bb83820293d04fba9762d1c4071904f7)
 
+* World Economic Freedom Index
+
+Here's the world economic freedom index - China v.s. US.
+[![WEFI](https://user-images.githubusercontent.com/42425096/68251702-b4617d80-fff1-11e9-9313-231d3f377d2d.png)](https://beta.vizhub.com/hotdoujiang/a70d524e772e4ff582fe6d0158c6df83)
