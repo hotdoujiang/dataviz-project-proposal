@@ -4,12 +4,11 @@
 
 The datasets I proposed to visualize for my project include
 
-* [2019 Economic Freedon Index](https://gist.github.com/hotdoujiang/addd4f2369f3457e5a09a8b89942941b) downloaded from [Heritage Organization](https://www.heritage.org/index/about)
+### [2019 Economic Freedon Index](https://gist.github.com/hotdoujiang/addd4f2369f3457e5a09a8b89942941b) downloaded from [Heritage Organization](https://www.heritage.org/index/about)
 
 >The Economic Freedom Index is poised to help readers track over two decades of the advancement in economic freedom, prosperity, and opportunity and promote these ideas in their homes, schools, and communities. The Index covers 12 freedoms – from property rights to financial freedom – in 186 countries. <br>
 
-
-* [Ramen Rating](https://gist.github.com/hotdoujiang/41d6a5c41b9975ac55a720bd46fd6392)
+### [Ramen Rating](https://gist.github.com/hotdoujiang/41d6a5c41b9975ac55a720bd46fd6392)
 
 The dataset comes from [Ramen Rater](https://www.theramenrater.com/)
 
@@ -17,7 +16,7 @@ The dataset comes from [Ramen Rater](https://www.theramenrater.com/)
 Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!
 
 
-* [Global Terrorism Dataset](https://gist.github.com/hotdoujiang/e6064faca930a996230aa4dc3ccd8db0)
+### [Global Terrorism Dataset](https://gist.github.com/hotdoujiang/e6064faca930a996230aa4dc3ccd8db0)
 
 The dataset is downloaded from the [Global Terrorism Database](https://www.start.umd.edu/gtd/).
 
@@ -52,13 +51,13 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-* Global Terrorism Dataset
+### Global Terrorism Dataset
 ![Global Terrorist](https://user-images.githubusercontent.com/42425096/68318084-343b2680-008a-11ea-9292-ac5d408c8c88.jpg)
 
-* Ramen Rating
+### Ramen Rating
 ![Ramen Rating](https://user-images.githubusercontent.com/42425096/68317903-e9211380-0089-11ea-93a2-c92f3518a14d.jpg)
 
-* Economic Freedom Index
+### Economic Freedom Index
 ![image](https://user-images.githubusercontent.com/42425096/67602655-1a721900-f745-11e9-91da-35e3ddbbd39a.jpg)
 
 The whole picture will be a interactive world map. Ideally, it should be a spinning earth with country maps in different brightness. The brighter country map is, the more free the country economic is.
@@ -69,7 +68,7 @@ Interactions
 
 ## Current Visualization
 
-* Global Terrorism Dataset
+### Global Terrorism Dataset
 
 [![GTD](https://user-images.githubusercontent.com/42425096/68251403-05bd3d00-fff1-11e9-9800-200ec0d3f9be.png)](https://beta.vizhub.com/hotdoujiang/278556d01b4044bd9aa8d1e1858a5d38)
 
@@ -84,7 +83,7 @@ The color of the points are set to be red to make it look like blood.
 2. Add brushes to interactively show the temporal and spatial changes of the number of terrorism events.
 3. Tooltip can also be added to see which orginazation conduct the terrorism event or the exact number of victims.
 
-* Ramen Rating
+### Ramen Rating
 [![RR](https://user-images.githubusercontent.com/42425096/68251447-24233880-fff1-11e9-8451-aadee278abed.png)](https://beta.vizhub.com/hotdoujiang/bb83820293d04fba9762d1c4071904f7)
 
 The visualization is all about Ramen Ratings! The picture includes information about the ramen score, style and which country it comes from.
@@ -94,7 +93,7 @@ The visualization is all about Ramen Ratings! The picture includes information a
 *Future Work*
 Distributed map fails to be realized because of lacking geographic data, a.k.a longitude and latitude. The missing data can be added to the original dataset to make the map visualization possible.
 
-* World Economic Freedom Index
+### World Economic Freedom Index
 
 Here's the world economic freedom index radar chart- China v.s. US.
 [![WEFI](https://user-images.githubusercontent.com/42425096/68251702-b4617d80-fff1-11e9-9313-231d3f377d2d.png)](https://beta.vizhub.com/hotdoujiang/a70d524e772e4ff582fe6d0158c6df83)
