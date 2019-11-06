@@ -8,41 +8,17 @@ The data I propose to visualize for my project is include
 
 >The Economic Freedom Index is poised to help readers track over two decades of the advancement in economic freedom, prosperity, and opportunity and promote these ideas in their homes, schools, and communities. The Index covers 12 freedoms – from property rights to financial freedom – in 186 countries. <br>
 
-The attributes are
-* Country Name
-* Region
-* World Rank
-* Region Rank
-* 2019 Score
-* Property Rights
-* Judical Effectiveness
-* Government Integrity
-* Tax Burden
-* Gov't Spending
-* Fiscal Health
-* Business Freedom
-* Labor Freedom
-* Monetary Freedom
-* Trade Freedom
-* Investment Freedom
-* Financial Freedom
 
 * [Ramen Rating](https://gist.github.com/hotdoujiang/41d6a5c41b9975ac55a720bd46fd6392)
+
 The dataset comes from [Ramen Rater](https://www.theramenrater.com/)
 
 >The Ramen Rater is a product review website for the hardcore ramen enthusiast (or "ramenphile"), with over 3000 reviews to date. This dataset is an export of "The Big List" (of reviews), converted to a CSV format. <br>
 Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!
 
-There are 
-* Review #: ordinal
-* Brand: categorical
-* Variety: categorical
-* Style: categorical
-* Country: categorical
-* Stars: ordinal
-* Top Ten: describes whether the ramen is recommended as top ten or not
 
 * [Global Terrorism Dataset](https://gist.github.com/hotdoujiang/e6064faca930a996230aa4dc3ccd8db0)
+
 The dataset is downloaded from the [Global Terrorism Database](https://www.start.umd.edu/gtd/).
 
 >The GTD™ is an open-source database, which provides information on domestic and international terrorist events around the world since 1970, and now includes more than 190,000 events. For each event, a wide range of information is available, including the date and location of the incident, the weapons used, nature of the target, the number of casualties, and – when identifiable – the group or individual responsible.
