@@ -28,20 +28,22 @@ All the three dataset can be find in my Gist. Some preprocessing work has been c
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of the data. The viz shows the correlation between two important evaluation metrics 'Tax Burden' and 'Government Integrity'.
+I’ve created a proof of concept visualization of the data. 
+
+1. The visualization below shows the correlation between two important evaluation metrics 'Tax Burden' and 'Government Integrity'.
 
 [![image](https://user-images.githubusercontent.com/42425096/67602911-a7b56d80-f745-11e9-9222-56a999340eb0.png)](https://beta.vizhub.com/hotdoujiang/4f0bcd5520b74d5a8d8d88bd88bd2f24)
 
-We cannot seen a clear correlation between these two attributes. Tax burden is not significantly correlated with government integrity.
+There isn't any clear correlation between these two attributes. Tax burden is not significantly correlated with government integrity.
 However, most of the countries in the world have high tax burden as well as low government integrity, with a intenser field appearing on the right lower corner of the picture.
 Most European countries, the red circles on the picture, have a low tax burden and high government integrity, while most sub-saharah African countries, the green circles, have a high tax burden and low government integrity.
 An interesting outlier is located at the left lower corner, which is North Korea. The country has no tax burden but relatively low government integrity.
 
+2. The second visualization shows the perpetrators who conducted crimes in the United States during 1975 to 2017 and their target type with corresponding weapon type.
 [![image](https://user-images.githubusercontent.com/42425096/68317625-757f0680-0089-11ea-9c8b-670462d6b8a5.png)](https://beta.vizhub.com/hotdoujiang/b4d211ecb917438cae29e5277c6a565f?edit=files&file=README.md)
 
-The viz shows the perpetrators who conducted crimes in the United States during 1975 to 2017 and their target type with corresponding weapon type.
-** From the viz we can see that the Private Citizens & Property and Business are almost the common target for all the perpetrators.
-** And most of the blocks are color green, which means Explosives/Bombs/Dynamite is the favourite weapon for the terrorists.
+From the viz we can see that the Private Citizens & Property and Business are almost the common target for all the perpetrators.
+And most of the blocks are color green, which means Explosives/Bombs/Dynamite is the favourite weapon for the terrorists.
 
 ## Questions & Tasks
 
