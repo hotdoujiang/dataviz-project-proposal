@@ -4,7 +4,9 @@
 
 The datasets I proposed to visualize for my project include
 
-### [2019 Economic Freedon Index](https://gist.github.com/hotdoujiang/addd4f2369f3457e5a09a8b89942941b) downloaded from [Heritage Organization](https://www.heritage.org/index/about)
+### [2019 Economic Freedon Index](https://gist.github.com/hotdoujiang/addd4f2369f3457e5a09a8b89942941b) 
+
+The dataset is downloaded from [Heritage Organization](https://www.heritage.org/index/about)
 
 >The Economic Freedom Index is poised to help readers track over two decades of the advancement in economic freedom, prosperity, and opportunity and promote these ideas in their homes, schools, and communities. The Index covers 12 freedoms – from property rights to financial freedom – in 186 countries. <br>
 
